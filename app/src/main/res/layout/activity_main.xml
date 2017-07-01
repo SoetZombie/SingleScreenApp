@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luke.cardapp.MainActivity">
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/a"
+android:scaleType = "centerCrop"/>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Welcome to IT-CORP"
+android:fontFamily="sans-serif-light"
+android:textSize="35sp"
+android:padding="15dp"
+android:textColor="@android:color/white"
+android:textStyle="bold"
+android:id="@+id/Heading"/>
+<TextView
+android:id="@+id/PHP"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="PHP"
+android:layout_below="@+id/Heading"
+android:layout_alignParentRight="true"
+android:layout_marginTop="0dp"
+android:textSize="35sp"
+android:fontFamily="sans-serif-light"
+android:textStyle="bold"
+android:textColor="@android:color/white"
+android:padding="15dp"
+    />
+<TextView
+android:id="@+id/JAVA"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="JAVA"
+android:layout_below="@+id/PHP"
+android:layout_alignParentRight="true"
+android:layout_marginTop="0dp"
+android:textSize="35sp"
+android:fontFamily="sans-serif-light"
+android:textStyle="bold"
+android:textColor="@android:color/white"
+android:padding="15dp"
+
+    />
+<TextView
+android:id="@+id/SHARP"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="C#"
+android:layout_below="@+id/JAVA"
+android:layout_alignParentRight="true"
+android:textSize="35sp"
+android:fontFamily="sans-serif-light"
+android:textStyle="bold"
+android:textColor="@android:color/white"
+android:padding="15dp"
+
+    />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="HTML"
+android:layout_below="@+id/SHARP"
+android:layout_alignParentRight="true"
+android:textSize="35sp"
+android:fontFamily="sans-serif-light"
+android:textStyle="bold"
+android:textColor="@android:color/white"
+android:padding="15dp"
+
+    />
+</RelativeLayout>
